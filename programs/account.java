@@ -21,7 +21,7 @@ import java.util.Scanner;
     void withdraw_deposit() {
         Scanner sc = new Scanner(System.in);
         System.out.print("\nSystem has default balance Rs." + dbalance);
-        System.out.print("\nEnter the option!!\n1. Deposit\t2. Withdraw\t ]3. Exit");
+        System.out.print("\nEnter the option!!\n1. Deposit\t2. Withdraw\t 3. Exit");
         option = sc.nextInt();
         switch (option) {
             case 1:
