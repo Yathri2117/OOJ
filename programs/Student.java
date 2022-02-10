@@ -62,10 +62,9 @@ public class Student {
         }
         System.out.println("Total credits : "+tcredits);
         System.out.println("Total Credits Points : "+cpoints);
-        System.out.println("Tota SGPA is : "+sgpa);
+        System.out.println("Total SGPA is : "+sgpa);
     }
     public static void main(String[] args){
-        Scanner in=new Scanner(System.in);
         Student st=new Student();
         st.accept();
         st.cal();
